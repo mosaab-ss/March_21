@@ -31,6 +31,8 @@ public class GuessRNG {
             // Wait for user input
             int guess = scan.nextInt();
 
+            // Unhandled Exception, need to implement some way to handle on input mismatch
+
             // Input must be within [1-100]
             if (guess > 100 || guess < 1) {
                 System.out.println("Sorry, you must enter a number in the range of [1-100]. Try again.");
