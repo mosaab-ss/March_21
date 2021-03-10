@@ -14,7 +14,7 @@ d: day in week number
 - [com.ss.mar.wone.dtwo](src/com/ss/mar/wone/dtwo) Week 1 Day 2  
   MultiSum: Sums up values from the command line or from user input  
   ArrayMinMax: Generates a 2D array with random numbers, then finds the index of the max value  
-  Shape: Interface defining a shape that have area calculation
+  Shape: Interface defining a shape that have area calculation  
   Rectangle: Class defining the area of a rectangle  
   Circle: Class defining the area of a circle  
   Triangle: Class defining the area of a Triangle in two ways  
