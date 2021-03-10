@@ -9,4 +9,12 @@ d: day in week number
 ## Index
 - [com.ss.mar.wone.done](src/com/ss/mar/wone/done) Week 1 Day 1  
   StarPattern: Star (*) pattern generator with 4 patterns  
-  GuessRNG: A "mini-game" to guess a random number between 1-100
+  GuessRNG: A "mini-game" to guess a random number between 1-100  
+
+- [com.ss.mar.wone.dtwo](src/com/ss/mar/wone/dtwo) Week 1 Day 2  
+  MultiSum: Sums up values from the command line or from user input  
+  ArrayMinMax: Generates a 2D array with random numbers, then finds the index of the max value  
+  Shape: Interface defining a shape that have area calculation
+  Rectangle: Class defining the area of a rectangle  
+  Circle: Class defining the area of a circle  
+  Triangle: Class defining the area of a Triangle in two ways  
