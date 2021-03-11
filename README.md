@@ -18,3 +18,8 @@ d: day in week number
   Rectangle: Class defining the area of a rectangle  
   Circle: Class defining the area of a circle  
   Triangle: Class defining the area of a Triangle in two ways  
+
+- [com.ss.mar.wone.dthree](src/com/ss/mar/wone/dthree) Week 1 Day 3  
+  DirLister: Lists files and subdirectories of a given path recursively  
+  AppendText: Appends user text to a given file  
+  CharCounter: Counts the number of characters that appears in a given file  
