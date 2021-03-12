@@ -23,3 +23,9 @@ d: day in week number
   DirLister: Lists files and subdirectories of a given path recursively  
   AppendText: Appends user text to a given file  
   CharCounter: Counts the number of characters that appears in a given file  
+
+- [com.ss.mar.wone.dfour](src/com/ss/mar/wone/dfour) Week 1 Day 4  
+  DoubleChecked: Example of a Singleton with double checked locking  
+  Dealock: Example of a deadlock between two threads  
+  BufferSolution: A possible solution to Producer-Consumer problem  
+    Supporting files: Producer, Consumer  
