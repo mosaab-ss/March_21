@@ -9,29 +9,46 @@ import java.util.stream.Collectors;
  */
 public class FunctionalLists {
     /**
-     * Get the right most digit
-     * @param numbers list of integers
-     * @return list of integers
+     *
+     * @param input List of Integers
+     * @param op IntegerOperations lambda method
+     * @return Modified Integer List
      */
-    public List<Integer> rightDigit(List<Integer> numbers) {
-        return numbers.stream().map(p -> p % 10).collect(Collectors.toList());
+    public List<Integer> performInt(List<Integer> input, IntegerOperations op) {
+        return input.stream().map(op::operate).collect(Collectors.toList());
+    }
+
+    /**
+     * Perform a string lambda operation on a list
+     * @param input List of strings
+     * @param op StringOperations lambda method
+     * @return Modified String List
+     */
+    public List<String> performStr(List<String> input, StringOperations op) {
+        return input.stream().map(op::operate).collect(Collectors.toList());
+    }
+
+    /**
+     * Get the right most digit
+     * @return IntegerOperations lambda
+     */
+    public IntegerOperations rightDigit() {
+        return p -> p % 10;
     }
 
     /**
      * Double the integers
-     * @param numbers list of integers
-     * @return list of integers
+     * @return IntegerOperations lambda
      */
-    public List<Integer> doubling(List<Integer> numbers) {
-        return numbers.stream().map(p -> p * 2).collect(Collectors.toList());
+    public IntegerOperations doubling() {
+        return p -> p * 2;
     }
 
     /**
      * Remove any occurrence of x
-     * @param numbers list of strings
-     * @return list of strings
+     * @return StringOperations lambda
      */
-    public List<String> noX(List<String> numbers) {
-        return numbers.stream().map(p -> p.replaceAll("x", "")).collect(Collectors.toList());
+    public StringOperations noX() {
+        return p -> p.replaceAll("x", "");
     }
 }

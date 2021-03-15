@@ -14,9 +14,9 @@ public class FunctionalListsTest {
 
     @Test
     public void rightDigit() {
-        List<Integer> firstCured = fl.rightDigit(Arrays.asList(1, 22, 93));
-        List<Integer> secondCured = fl.rightDigit(Arrays.asList(16, 8, 886, 8, 1));
-        List<Integer> thirdCured = fl.rightDigit(Arrays.asList(10, 0));
+        List<Integer> firstCured = fl.performInt(Arrays.asList(1, 22, 93), fl.rightDigit());
+        List<Integer> secondCured = fl.performInt(Arrays.asList(16, 8, 886, 8, 1), fl.rightDigit());
+        List<Integer> thirdCured = fl.performInt(Arrays.asList(10, 0), fl.rightDigit());
 
 
         List<Integer> firstExpect = Arrays.asList(1, 2, 3);
@@ -30,9 +30,9 @@ public class FunctionalListsTest {
 
     @Test
     public void doubling() {
-        List<Integer> firstCured = fl.doubling(Arrays.asList(1, 2, 3));
-        List<Integer> secondCured = fl.doubling(Arrays.asList(6, 8, 6, 8, -1));
-        List<Integer> thirdCured = fl.doubling(Arrays.asList());
+        List<Integer> firstCured = fl.performInt(Arrays.asList(1, 2, 3), fl.doubling());
+        List<Integer> secondCured = fl.performInt(Arrays.asList(6, 8, 6, 8, -1), fl.doubling());
+        List<Integer> thirdCured = fl.performInt(Arrays.asList(), fl.doubling());
 
 
         List<Integer> firstExpect = Arrays.asList(2, 4, 6);
@@ -46,9 +46,9 @@ public class FunctionalListsTest {
 
     @Test
     public void noX() {
-        List<String> firstCured = fl.noX(Arrays.asList("ax", "bb", "cx"));
-        List<String> secondCured = fl.noX(Arrays.asList("xxax", "xbxbx", "xxcx"));
-        List<String> thirdCured = fl.noX(Arrays.asList("x"));
+        List<String> firstCured = fl.performStr(Arrays.asList("ax", "bb", "cx"), fl.noX());
+        List<String> secondCured = fl.performStr(Arrays.asList("xxax", "xbxbx", "xxcx"), fl.noX());
+        List<String> thirdCured = fl.performStr(Arrays.asList("x"), fl.noX());
 
 
         List<String> firstExpect = Arrays.asList("a", "bb", "c");

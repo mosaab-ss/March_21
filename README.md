@@ -41,4 +41,4 @@ d: day in week number
   FunctionalLists: Methods that work on lists and returns a modified list  
   Recursion: groupsumclump algorithm that returns whether a sum is possible given a list of numbers  
   SampleSingleton: Fixed the issues with the given sample class  
-
+  IntegerOperations, StringOperations: Interfaces to provide lambda operations  
