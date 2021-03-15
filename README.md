@@ -29,3 +29,16 @@ d: day in week number
   Dealock: Example of a deadlock between two threads  
   BufferSolution: A possible solution to Producer-Consumer problem  
     Supporting files: Producer, Consumer  
+
+- [com.ss.mar.wone.dfive](src/com/ss/mar/wone/dfive) Week 1 Day 5  
+  BasicLambda: Demonstrates Lambda functions  
+  ArrayStream: Java8 demonstration of lambda on numbers and strings  
+  StringLists: Lambda and Streams API on string lists  
+  DateTime: Answers questions on Date-Time API  
+
+- [com.ss.mar.wone.assignment](src/com/ss/mar/wone/assignment) Week 1 Assignment  
+  Lambdas: Methods that return a lambda expression performing mathematical computations  
+  FunctionalLists: Methods that work on lists and returns a modified list  
+  Recursion: groupsumclump algorithm that returns whether a sum is possible given a list of numbers  
+  SampleSingleton: Fixed the issues with the given sample class  
+
